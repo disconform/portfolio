@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: ForestGreen;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background-color: DarkBlue;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+p:nth-child(odd) {color: FireBrick;}
+
+h2 {
+  color: green;
+}
+
+p {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 200%;
+}
+
+
+
+body {
+  background-color: dodgerblue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  width:20%;
+}
+
+img:hover {
+    transition: transform .5s ease;
+    transform: scale(1.5);
+}
+
+#footer {
+  padding: 100px;
+  background-color: DarkGoldenRod;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: DarkGreen;
+  border-style: solid;
+  border-color: OrangeRed;
+  border-width: medium;
+}
+
+.purple-text {
+   color: purple;
+}
+
+.important:hover {
+  background-color:coral;
+
+}
+
+p.important {
+  width: 75%;
+}
+
+a {
+  color: LawnGreen;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a[href="about-me.html"] {
+  background-color: DarkGoldenRod;
+  padding: 1rem;
+}
+
+a[href="semantic-elements.html"] {
+  background-color: CornflowerBlue;
+  padding: 1rem;
+}
+
+a[href="https://lipsum.com/"] {
+  background-color: DarkOrange;
+  padding: 1rem;
+}
+
+a[href="https://www.google.com/search?q=gme+stock&rlz=1C1ASUM_enUS845US845&oq=&aqs=chrome.0.35i39i362l5j46i39i362j35i39i362j46i39i199i291i362...8.1792461j0j7&sourceid=chrome&ie=UTF-8"] {
+  background-color: DarkGreen;
+  padding: 1rem;
+}
+
+a[href="contact.html"] {
+  background-color: Orange;
+  padding: 1rem;
+}
+
+a[href="index.html"] {
+  background-color: Black;
+  padding: 1rem;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+input {
+  border-radius: 20px;
+}
+
+input[type=text]:focus {
+  background-color: goldenrod;
+  outline: none;
+}
+
+input[type=email]:focus {
+    background-color: green;
+    outline: none;
+}
+fieldset {
+      border: none;
+    }
+
+fieldset input {
+      display: inline;
+    }
